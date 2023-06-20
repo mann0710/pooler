@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585082297930",
+    "project_id": "poolrdemo",
+    "storage_bucket": "poolrdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585082297930:android:f2c6237ac831f1180c90b3",
+        "android_client_info": {
+          "package_name": "com.example.poolr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585082297930-9q7l6q5lj5ahsbudst7b1ap5trp4ul59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBURTXcrDZBSwafDyUDgmD3ApoFIvBNgLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585082297930-9q7l6q5lj5ahsbudst7b1ap5trp4ul59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
