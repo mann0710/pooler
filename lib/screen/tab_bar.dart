@@ -23,7 +23,7 @@ class _TabBarPageState extends State<TabBarPage> {
           bottom: TabBar(
             padding: EdgeInsets.only(right: 160),
             isScrollable: true,
-            unselectedLabelColor: Colors.grey,
+            unselectedLabelColor: Colors.white54,
             indicatorColor: Colors.white,
             tabs: <Tab>[
               Tab(

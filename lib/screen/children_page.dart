@@ -159,6 +159,7 @@ class _ChildrenPageState extends State<ChildrenPage> {
                                       )),
                                 ],
                               ),
+                              SizedBox(height:14 ),
                               Row(
                                 children: [
                                   SvgPicture.asset('assets/icon/phone.svg'),
