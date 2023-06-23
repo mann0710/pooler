@@ -27,7 +27,7 @@ class _SingUpState extends State<SingUp> {
                     Icons.person_rounded,
                   ),
                   label: Text(
-                    'full name',
+                    'Full Name',
                     style: TextStyle(
                       color: Color(0xff5A5A5A),
                     ),
@@ -43,7 +43,7 @@ class _SingUpState extends State<SingUp> {
                     Icons.mail_outlined,
                   ),
                   label: Text(
-                    'mail',
+                    'Mail',
                     style: TextStyle(
                       color: Color(0xff5A5A5A),
                     ),
@@ -59,7 +59,7 @@ class _SingUpState extends State<SingUp> {
                     Icons.phone,
                   ),
                   label: Text(
-                    'phone Number',
+                    'Phone Number',
                     style: TextStyle(
                       color: Color(0xff5A5A5A),
                     ),

@@ -31,19 +31,20 @@ class _LoginPageState extends State<LoginPage> {
                     'Welcome back!',
                     style: TextStyle(
                         fontSize: 24,
-                        fontWeight: FontWeight.w500,
-                        color: Color(0xff5A5A5A)),
+                      fontFamily: 'Raleway',
+                      color: Color(0xff5A5A5A)),
                   ),
                   const SizedBox(
                     height: 10,
                   ),
                   Text(
                     'Enter your phone number to recieve a verification code to login',
-                    style: const TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.normal,
-                        color: Color(0xff5A5A5A)),
-                  ),
+                  style: const TextStyle(
+                      fontSize: 16,
+                      // fontWeight: FontWeight.normal,
+                      color: Color(0xff5A5A5A),
+                      fontFamily: 'Raleway'),
+                ),
                   const SizedBox(height: 50),
                   TextFormField(
                     controller: numberController,

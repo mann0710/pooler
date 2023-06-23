@@ -19,9 +19,10 @@ class _TabBarPageState extends State<TabBarPage> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: const Color(0xff266578),
+          toolbarHeight: 70,
+          backgroundColor: Color(0xff266578),
           bottom: TabBar(
-            padding: EdgeInsets.only(right: 160),
+            padding: EdgeInsets.only(right: 210),
             isScrollable: true,
             unselectedLabelColor: Colors.white54,
             indicatorColor: Colors.white,
@@ -34,17 +35,23 @@ class _TabBarPageState extends State<TabBarPage> {
               ),
             ],
           ),
-            automaticallyImplyLeading: false,
-          title: RichText(
-            text: const TextSpan(
-              text: 'Poolr',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-              children: [
-                TextSpan(
-                  text: '  ' + 'parnet',
-                  style: TextStyle(fontWeight: FontWeight.w300, fontSize: 20),
-                ),
-              ],
+          automaticallyImplyLeading: false,
+          title: Padding(
+            padding: const EdgeInsets.only(left: 10, top: 20),
+            child: RichText(
+              text: const TextSpan(
+                text: 'Poolr',
+                style: TextStyle(
+                    fontWeight: FontWeight.w900,
+                    fontSize: 32,
+                    fontFamily: 'Raleway'),
+                children: [
+                  TextSpan(
+                    text: ' ' + 'Parent',
+                    style: TextStyle(fontSize: 32, fontFamily: 'Raleway'),
+                  ),
+                ],
+              ),
             ),
           ),
         ),
